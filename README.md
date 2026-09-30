@@ -42,7 +42,6 @@ ardsprediction2/
 │   ├── BaselineImageOnly.py        # DenseNet-121 image-only baseline
 │   ├── LogisticRegressionText.py   # TF-IDF + logistic regression (text)
 │   └── LogisticRegressionMetaData.py # Logistic regression (metadata)
-└── test.py                         # Runs evaluation on saved predictions
 ```
 
 ---
@@ -80,7 +79,7 @@ export CSV_PATH=placeholder/path.csv
 python main.py -fusion-type transformer
 
 # GNN/GAT fusion
-python main.py -fusion-type gat
+python main.py --fusion-type gat
 ```
 
 **Evaluate saved predictions:**
