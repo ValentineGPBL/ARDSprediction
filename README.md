@@ -76,7 +76,7 @@ export CSV_PATH=placeholder/path.csv
 **Train the model:**
 ```bash
 # Cross-attention fusion (default)
-python main.py -fusion-type transformer
+python main.py --fusion-type transformer
 
 # GNN/GAT fusion
 python main.py --fusion-type gat
